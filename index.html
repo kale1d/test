@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section class="wrapper">
+      <nav class="nav">
+        <div class="typo">TOOL TEST</div>
+      </nav>
+      <section class="main-container">
+        <!-- inicio del menú de la izquierda -->
+        <section class="menu-wrapper">
+
+          <img src="" data-imgr="img/uno.svg" data-imgw="img/unoWh.svg" class="red uno">
+          <img src="" data-imgr="img/dos.svg" data-imgw="img/dosWh.svg" class="red dos">
+          <img src="" data-imgr="img/tres.svg" data-imgw="img/tresWh.svg" class="red tres">
+          <img src="" data-imgr="img/cuatro.svg" data-imgw="img/cuatroWh.svg" class="red cuatro">
+          <img src="" data-imgr="img/cinco.svg" data-imgw="img/cincoWh.svg" class="red cinco">
+          <img src="" data-imgr="img/seis.svg" data-imgw="img/seisWh.svg" class="red seis">
+          <img src="" data-imgr="img/siete.svg" data-imgw="img/sieteWh.svg" class="red siete">
+        </section>
+        <!-- fin menú de la izquierda -->
+        <!-- inicio página -->
+        <section class="info-wrapper">
+          <div class="title">
+            <p>Tiendas</p>
+          </div>
+          <div class="head-wrapper">
+            <div class="cities">
+              <p class="city">Buenos Aires</p>
+              <p class="city">Córdoba</p>
+            </div>
+            <div class="search-wrapper">
+              <img src="img/shape.svg" class="search-logo">
+              <input type="text" placeholder="Buscar por razón social, Nº de cliente">
+              </input>
+            </div>
+          </div>
+        <!-- listado de información del cliente -->
+          <div class="list-info">
+            <!-- usar una clase para cada elemento con porcentajes para mantener la proporción -->
+            <div class="cliente">Nº de Cliente</div>
+            <div class="razSoc">Razón Social</div>
+            <div class="tel">Teléfono</div>
+            <div class="ped">Ver Pedidos</div>
+            <div class="status">Estado de Pedidos</div>
+            <div class="editar">Editar</div>
+            <div class="estado">Estado</div>
+          </div>
+          <!-- fin listado -->
+          <!-- información del primer cliente -->
+          <div class="card">
+              <div class="cliente">0015248</div>
+              <div class="razSoc">Azakira Yosimoto & CIA</div>
+              <div class="tel">011-452-7712</div>
+              <div class="pedidos ped">
+                <div>45</div>
+                <img src="img/ic_shopping_basket_white_24px.svg" class="ic_shopping_basket_white_24px">
+              </div>
+              <div class="status data">
+                <div>10 EN CAMINO</div>
+                <div>20 ENTREGADOS</div>
+              </div>
+              <div class = "editar"> </div>
+              <div class="switch estado">
+                <input type="checkbox" id="unchecked" class="cbx hidden"/>
+                <label for="unchecked" class="lbl"></label>
+                <div class="flecha">
+                  <img src="img/Path-4.svg" class="Path-4">
+                </div>
+              </div>
+          </div>
+        <!-- fin información del primer cliente -->
+        <!-- inicio segundo cliente -->
+          <div class="card">
+              <div class="cliente">0015249</div>
+              <div class="razSoc">Kenshiro SA</div>
+              <div class="tel">011-4321-4312</div>
+              <div class="pedidos ped">
+                <p>35</p>
+                <img src="img/ic_shopping_basket_white_24px.svg" class="ic_shopping_basket_white_24px">
+              </div>
+              <div class="status data">
+                <div>10 EN CAMINO</div>
+                <div>20 ENTREGADOS</div>
+              </div>
+              <div class = "editar"> </div>
+              <div class="switch estado">
+                <input type="checkbox" id="unchecked2" class="cbx2 hidden"/>
+                <label for="unchecked2" class="lbl2"></label>
+                <div class="flecha">
+                  <img src="img/Path-4.svg" class="Path-4">
+                </div>
+              </div>
+          </div>
+          <div class="card2">
+            <div class="tienda-wrapper">
+            <div class="list-tienda">
+              <div class="name">Nombre de la Tienda</div>
+              <div class="atHs">Horario de Atención</div>
+              <div class="mail">Email</div>
+              <div class="ubi">Ubicación</div>
+            </div>
+            <div class="tienda">
+              <div class="name">Supermercado</div>
+              <div class="atHs">Lunes a viernes de 8 a 22 y sabados y domingo de 10 a 15 </div>
+              <div class="mail">super@gmail.com</div>
+              <div class="ubi">CABA, Belgrano, Av. Libertador 3200</div>
+            </div>
+            </div>
+            <div class="envio data">
+              <div>25 PICKUP</div>
+              <div class="a">10 DELIVERY
+              </div>
+            </div>
+          </div>
+<!-- fin info segundo cliente -->
+          <!-- inicio tercer cliente -->
+          <div class="card">
+              <div class="cliente">0015249</div>
+              <div class="razSoc">Kenshiro SA</div>
+              <div class="tel">011-4321-4312</div>
+              <div class="pedidos ped">
+                <div>35</div>
+                <img src="img/ic_shopping_basket_white_24px.svg" class="ic_shopping_basket_white_24px">
+              </div>
+              <div class="status data">
+                <div>10 EN CAMINO</div>
+                <div>20 ENTREGADOS</div>
+              </div>
+              <div class = "editar"> </div>
+              <div class="switch estado">
+                <input type="checkbox" id="unchecked3" class="cbx3 hidden"/>
+                <label for="unchecked3" class="lbl3"></label>
+                <div class="flecha">
+                  <img src="img/path-4.svg" class="Path-4">
+                </div>
+              </div>
+          </div>
+        <!-- fin tercer cliente -->
+          <div class="add-button">
+            <img src="img/Add.svg" class="Add"></div>
+        </section>
+      </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js">
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
+  </body>
+</html>
